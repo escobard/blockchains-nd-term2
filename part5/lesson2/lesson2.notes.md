@@ -46,3 +46,35 @@ Business Actions - User or machine initiated actions that allows assets to progr
 Actors - Users that interact with the asset to perform process actions and transform the asset from one state to next. Users that have ownership or custody of the asset. Users that participate in audit, review and attestation of the asset to validate history.
 
 Role Permissions - A class of users performing similar actions or functions are grouped into roles. Permissions to perform business actions are assigned by roles. The web interface and smart contracts enforce the permissions, preventing rogue users from tampering
+
+
+## UML
+
+- Unified Modeling Language
+- Used to unify role of actors, roles, permissions, and processes in a supply chain
+
+### UML - background
+
+- models relationships between actions in the chain
+- models database patterns
+- models stored procedures and services
+- cross-team communication tool from business to engineering
+
+### UML - Types
+
+- 2 base types
+    1. behavioral
+    2. structure
+
+#### UML - Layers
+
+1. activity - actors & interactions
+2. sequence - functions in a smart contract
+3. state - asset states - sold, shipped, received etc 
+4. class (data) - database diagram for smart contracts
+
+#### Using petshop as an an example (eralier lessons)
+
+1. actor 1 = breeder who holds 1 asset, 1 pet
+2. actor 2 = owner, who may hold multiple pets, but wants 1 pet from actor 1
+
