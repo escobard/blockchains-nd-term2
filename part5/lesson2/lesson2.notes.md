@@ -78,3 +78,8 @@ Role Permissions - A class of users performing similar actions or functions are 
 1. actor 1 = breeder who holds 1 asset, 1 pet
 2. actor 2 = owner, who may hold multiple pets, but wants 1 pet from actor 1
 
+#### With time, should review: 
+
+- https://www.youtube.com/watch?v=UI6lqHOVHic
+- https://www.youtube.com/watch?v=pCK6prSq8aw
+
