@@ -66,7 +66,7 @@ Role Permissions - A class of users performing similar actions or functions are 
     1. behavioral
     2. structure
 
-#### UML - Layers
+### UML - Layers
 
 1. activity - actors & interactions
 2. sequence - functions in a smart contract
@@ -77,6 +77,28 @@ Role Permissions - A class of users performing similar actions or functions are 
 
 1. actor 1 = breeder who holds 1 asset, 1 pet
 2. actor 2 = owner, who may hold multiple pets, but wants 1 pet from actor 1
+
+Within a smart contract, we will create functions that changes the `state and attributes` of an asset.
+
+#### Activity diagrams - actors & interactions
+
+IMPORTANT FOR ALL OF THESE, COME BACK AND ATTACH THE DIAGRAMS FOR CLEAR VISUAL REPRESENTATION, NOT AVAILABLE AS OF NOV 20th, 2018.
+
+purpose: represents the flow from one activity to another in the system. It captures the dynamic behavior of the system.
+
+In this case since we have 2 actors we would create a diagram for the behavior of each actor in the system.
+
+#### Sequence diagram  - functions in a smart contract
+
+purpose: represents interaction between objects in the order of sequence in which interactions take place.
+
+#### State Diagram - asset states - sold, shipped, received, etc
+
+purpose: A state diagram is type of behavioral diagram which shows how an object moves through various states within its lifetime.
+
+#### Data Model Diagram 
+
+purpose: A diagram which displays properties of each storage model / smart contract property and their role in storing the `assets and their state`.
 
 #### With time, should review: 
 
