@@ -51,7 +51,8 @@ Role Permissions - A class of users performing similar actions or functions are 
 ## UML
 
 - Unified Modeling Language
-- Used to unify role of actors, roles, permissions, and processes in a supply chain
+- Intended to provide a standard way to visualize the design of a system.
+- Used to unify role of actors, roles, permissions, and processes in a software system.
 
 ### UML - background
 
@@ -88,6 +89,8 @@ purpose: represents the flow from one activity to another in the system. It capt
 
 In this case since we have 2 actors we would create a diagram for the behavior of each actor in the system.
 
+For reference of different activity diagrams in a supply chain system, refer to the [Multiple Actor Activity Diagrams in this Article](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-activity-diagram/)
+    
 #### Sequence diagram  - functions in a smart contract
 
 purpose: represents interaction between objects in the order of sequence in which interactions take place.
