@@ -32,3 +32,4 @@
     - sold() - lemonade is sold, sold state is set to true
     - fetchLemonade() - buyer OR owner 
 - each of these are necessary functions to both satisfy expectations of each actor, and maintain data transparency
+#### 
