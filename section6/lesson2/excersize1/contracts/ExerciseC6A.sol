@@ -7,7 +7,7 @@ contract ExerciseC6A {
     /********************************************************************************************/
 
     // sets the variable to maintain the M-of-N ratio
-    uint constant M = 2;
+    uint constant M = 3;
 
     struct UserProfile {
         bool isRegistered;
@@ -89,7 +89,6 @@ contract ExerciseC6A {
                                     bool isAdmin
                                 )
                                 external
-                                isOperational
                                 requireContractOwner
     {
         require(!userProfiles[account].isRegistered, "User is already registered.");
