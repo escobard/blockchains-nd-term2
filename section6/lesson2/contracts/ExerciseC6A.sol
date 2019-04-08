@@ -96,7 +96,7 @@ contract ExerciseC6A {
     }
 
     // sets contract operations on / off, while off, all write transactions will fail
-    function setOperatingStatus(bool mode) external isOperational requireContractOwner {
+    function setOperatingStatus(bool mode) external requireContractOwner {
         operational = mode;
     }
 
@@ -106,7 +106,8 @@ contract ExerciseC6A {
 
     modifier isOperational(){
         // second argument throws an error if require condition is not met, neat!
-        require(operational, "Contract is currently not operational")
+        require(operational, "Contract is currently not operational");
+        _;
     }
 }
 
