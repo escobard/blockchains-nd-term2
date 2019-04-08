@@ -28,7 +28,7 @@ contract('ExerciseC6A', async (accounts) => {
   it('function call is made when multi-party threshold is reached', async () =>{
 
     // deconstructs contract functions
-    let { registerUser, setOperatingStatus, isOperational } = config.exerciseC6A;
+    let { registerUser, setOperatingStatus, getOperational } = config.exerciseC6A;
 
     // sets admin accounts
     let admin1 = accounts[1];

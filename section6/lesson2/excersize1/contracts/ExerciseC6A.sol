@@ -100,7 +100,7 @@ contract ExerciseC6A {
     }
 
     // sets contract operations on / off, while off, all write transactions will fail
-    function setOperatingStatus(bool mode) external requireContractOwner {
+    function setOperatingStatus(bool mode) external{
 
         // best practice with ether, we want functions to fail fast to avoid unecessary costs
 
