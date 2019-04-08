@@ -16,7 +16,9 @@
 - protects against the loss of a private key
     - a single private key loss usually means the account is locked out, in multisig cases it does not
 - Enforces business rules for financial transactions
-    
+- prevents one individual from arbitrarily performing actions
+- enables enforcement of business rules with code, making critical state changing functions harder to hack
+
 #### Multi-party Concensus
 - in ethereum, there is no multi-party accounts, therefore the logic must be implemented via smart contracts
 - we will refer to this as multi-party concensus moving forward

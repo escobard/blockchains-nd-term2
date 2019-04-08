@@ -52,6 +52,8 @@ contract('ExerciseC6A', async (accounts) => {
     // sends off multiConcensus function transactions
     await setOperatingStatus(changeStatus, {from: admin1});
     await setOperatingStatus(changeStatus, {from: admin2});
+
+    // comment the line below down, 
     await setOperatingStatus(changeStatus, {from: admin3});
 
     let newStatus = await getOperational.call();
